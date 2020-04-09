@@ -10,10 +10,22 @@
 		5815DA1F243E3E6F001CE302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815DA1E243E3E6F001CE302 /* AppDelegate.swift */; };
 		5815DA21243E3E6F001CE302 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815DA20243E3E6F001CE302 /* SceneDelegate.swift */; };
 		5815DA23243E3E6F001CE302 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815DA22243E3E6F001CE302 /* ViewController.swift */; };
-		5815DA26243E3E6F001CE302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5815DA24243E3E6F001CE302 /* Main.storyboard */; };
 		5815DA28243E3E71001CE302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5815DA27243E3E71001CE302 /* Assets.xcassets */; };
 		5815DA2B243E3E71001CE302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5815DA29243E3E71001CE302 /* LaunchScreen.storyboard */; };
 		5815DA36243E3E71001CE302 /* TabBarWithNotchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815DA35243E3E71001CE302 /* TabBarWithNotchTests.swift */; };
+		5815DA41243E3F53001CE302 /* TabBarBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815DA40243E3F53001CE302 /* TabBarBackgroundView.swift */; };
+		5815DA43243E413D001CE302 /* CGFloat+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815DA42243E413D001CE302 /* CGFloat+Ex.swift */; };
+		5815DA45243E4181001CE302 /* UITabBar+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815DA44243E4181001CE302 /* UITabBar+Ex.swift */; };
+		5815DA48243E4366001CE302 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815DA46243E4366001CE302 /* FirstViewController.swift */; };
+		5815DA49243E4366001CE302 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5815DA47243E4366001CE302 /* FirstViewController.xib */; };
+		5815DA4C243E437E001CE302 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815DA4A243E437E001CE302 /* HomeViewController.swift */; };
+		5815DA4D243E437E001CE302 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5815DA4B243E437E001CE302 /* HomeViewController.xib */; };
+		5815DA50243E438B001CE302 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815DA4E243E438B001CE302 /* SecondViewController.swift */; };
+		5815DA51243E438B001CE302 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5815DA4F243E438B001CE302 /* SecondViewController.xib */; };
+		5815DA5A243EE01B001CE302 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815DA59243EE01B001CE302 /* TabCoordinator.swift */; };
+		5815DA5C243EE02E001CE302 /* SecondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815DA5B243EE02E001CE302 /* SecondCoordinator.swift */; };
+		5815DA5E243EE03A001CE302 /* FirstCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815DA5D243EE03A001CE302 /* FirstCoordinator.swift */; };
+		5815DA60243EE3E6001CE302 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815DA5F243EE3E6001CE302 /* HomeCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +43,25 @@
 		5815DA1E243E3E6F001CE302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5815DA20243E3E6F001CE302 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5815DA22243E3E6F001CE302 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5815DA25243E3E6F001CE302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5815DA27243E3E71001CE302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5815DA2A243E3E71001CE302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5815DA2C243E3E71001CE302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5815DA31243E3E71001CE302 /* TabBarWithNotchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarWithNotchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5815DA35243E3E71001CE302 /* TabBarWithNotchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarWithNotchTests.swift; sourceTree = "<group>"; };
 		5815DA37243E3E71001CE302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5815DA40243E3F53001CE302 /* TabBarBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarBackgroundView.swift; sourceTree = "<group>"; };
+		5815DA42243E413D001CE302 /* CGFloat+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Ex.swift"; sourceTree = "<group>"; };
+		5815DA44243E4181001CE302 /* UITabBar+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBar+Ex.swift"; sourceTree = "<group>"; };
+		5815DA46243E4366001CE302 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5815DA47243E4366001CE302 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		5815DA4A243E437E001CE302 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5815DA4B243E437E001CE302 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		5815DA4E243E438B001CE302 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5815DA4F243E438B001CE302 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		5815DA59243EE01B001CE302 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
+		5815DA5B243EE02E001CE302 /* SecondCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCoordinator.swift; sourceTree = "<group>"; };
+		5815DA5D243EE03A001CE302 /* FirstCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCoordinator.swift; sourceTree = "<group>"; };
+		5815DA5F243EE3E6001CE302 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +103,9 @@
 		5815DA1D243E3E6F001CE302 /* TabBarWithNotch */ = {
 			isa = PBXGroup;
 			children = (
-				5815DA1E243E3E6F001CE302 /* AppDelegate.swift */,
-				5815DA20243E3E6F001CE302 /* SceneDelegate.swift */,
-				5815DA22243E3E6F001CE302 /* ViewController.swift */,
-				5815DA24243E3E6F001CE302 /* Main.storyboard */,
-				5815DA27243E3E71001CE302 /* Assets.xcassets */,
-				5815DA29243E3E71001CE302 /* LaunchScreen.storyboard */,
+				5815DA57243ED75D001CE302 /* SupportFiles */,
+				5815DA56243ED752001CE302 /* Extensions */,
+				5815DA52243ED730001CE302 /* Views */,
 				5815DA2C243E3E71001CE302 /* Info.plist */,
 			);
 			path = TabBarWithNotch;
@@ -97,6 +118,77 @@
 				5815DA37243E3E71001CE302 /* Info.plist */,
 			);
 			path = TabBarWithNotchTests;
+			sourceTree = "<group>";
+		};
+		5815DA52243ED730001CE302 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5815DA58243ED783001CE302 /* Tab */,
+				5815DA55243ED74A001CE302 /* Second */,
+				5815DA54243ED744001CE302 /* First */,
+				5815DA53243ED73A001CE302 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5815DA53243ED73A001CE302 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5815DA4A243E437E001CE302 /* HomeViewController.swift */,
+				5815DA4B243E437E001CE302 /* HomeViewController.xib */,
+				5815DA5F243EE3E6001CE302 /* HomeCoordinator.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5815DA54243ED744001CE302 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				5815DA46243E4366001CE302 /* FirstViewController.swift */,
+				5815DA47243E4366001CE302 /* FirstViewController.xib */,
+				5815DA5D243EE03A001CE302 /* FirstCoordinator.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		5815DA55243ED74A001CE302 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				5815DA4E243E438B001CE302 /* SecondViewController.swift */,
+				5815DA4F243E438B001CE302 /* SecondViewController.xib */,
+				5815DA5B243EE02E001CE302 /* SecondCoordinator.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		5815DA56243ED752001CE302 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5815DA42243E413D001CE302 /* CGFloat+Ex.swift */,
+				5815DA44243E4181001CE302 /* UITabBar+Ex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5815DA57243ED75D001CE302 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5815DA29243E3E71001CE302 /* LaunchScreen.storyboard */,
+				5815DA1E243E3E6F001CE302 /* AppDelegate.swift */,
+				5815DA20243E3E6F001CE302 /* SceneDelegate.swift */,
+				5815DA27243E3E71001CE302 /* Assets.xcassets */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		5815DA58243ED783001CE302 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				5815DA22243E3E6F001CE302 /* ViewController.swift */,
+				5815DA40243E3F53001CE302 /* TabBarBackgroundView.swift */,
+				5815DA59243EE01B001CE302 /* TabCoordinator.swift */,
+			);
+			path = Tab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5815DA2B243E3E71001CE302 /* LaunchScreen.storyboard in Resources */,
+				5815DA49243E4366001CE302 /* FirstViewController.xib in Resources */,
 				5815DA28243E3E71001CE302 /* Assets.xcassets in Resources */,
-				5815DA26243E3E6F001CE302 /* Main.storyboard in Resources */,
+				5815DA4D243E437E001CE302 /* HomeViewController.xib in Resources */,
+				5815DA51243E438B001CE302 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +294,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5815DA5A243EE01B001CE302 /* TabCoordinator.swift in Sources */,
+				5815DA5E243EE03A001CE302 /* FirstCoordinator.swift in Sources */,
+				5815DA5C243EE02E001CE302 /* SecondCoordinator.swift in Sources */,
+				5815DA43243E413D001CE302 /* CGFloat+Ex.swift in Sources */,
+				5815DA41243E3F53001CE302 /* TabBarBackgroundView.swift in Sources */,
 				5815DA23243E3E6F001CE302 /* ViewController.swift in Sources */,
+				5815DA50243E438B001CE302 /* SecondViewController.swift in Sources */,
+				5815DA4C243E437E001CE302 /* HomeViewController.swift in Sources */,
+				5815DA60243EE3E6001CE302 /* HomeCoordinator.swift in Sources */,
 				5815DA1F243E3E6F001CE302 /* AppDelegate.swift in Sources */,
+				5815DA45243E4181001CE302 /* UITabBar+Ex.swift in Sources */,
 				5815DA21243E3E6F001CE302 /* SceneDelegate.swift in Sources */,
+				5815DA48243E4366001CE302 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5815DA24243E3E6F001CE302 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5815DA25243E3E6F001CE302 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5815DA29243E3E71001CE302 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
